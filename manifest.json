@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Guerrilla Mail Extension",
+  "version": "1.0",
+  "description": "Create and view temporary email addresses using Guerrilla Mail API.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
